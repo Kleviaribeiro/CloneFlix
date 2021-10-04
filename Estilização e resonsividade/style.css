@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background:black;
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/* principal*/
+.principal{
+    font-size:20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url(round-6-netflix_jm8d.1200-1024x630.jpg);
+    height:700px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.principal .titulo{
+    margin-left: 20px;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.botao1{
+    background-color: white;
+    border:none;
+    color: black;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 15px 35px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao1:hover{
+    background-color:gray;
+}
+
+.botao2{
+    background-color: dimgray;
+    border:none;
+    color: white;
+    margin-top: 15px;
+    padding: 15px 50px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao2:hover{
+    background-color:gray;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.titulo-1carousel{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-1filmes{
+    margin-left: 40px;
+}
+
+.carousel-2filmes{
+    margin-left: 40px;
+    margin-top: 20px;
+} 
+
+.carousel-3filmes{
+    margin-left: 40px;
+    margin-top: 20px;
+} 
+
+.titulo-2carousel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+.titulo-3carousel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
